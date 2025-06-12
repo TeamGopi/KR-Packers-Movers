@@ -1,0 +1,50 @@
+body {
+    background: linear-gradient(blue, red, yellow, white);
+    transition: all 10s;
+    scroll-behavior: smooth;
+}
+
+#header {
+    height: 25px;
+    width: 100%;
+    background: linear-gradient(blue, red, yellow, white, grey);
+}
+
+#home-about {
+    display: flexbox;
+}
+
+#home-about-content {
+    display: flex;
+    gap: 50px;
+    margin: 20px;
+}
+
+.home-about-section {
+    margin: 20px;
+    width: 40%;
+
+}
+input{
+    width: 550px;
+    margin-top: 7px;
+    margin-block-end: auto;
+
+
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.footer-section{
+    width: 32%;
+    margin-left: 15px;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 600px){
+    .footer-section {
+        width: 100%;
+        
+    }
+}
